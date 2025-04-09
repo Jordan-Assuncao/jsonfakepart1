@@ -1,0 +1,39 @@
+{    "CinemaAdmins": [
+    { "id": 1,"nomeCinema":"Cinema A", "login": "usuario01", "senha": "1"},
+    { "id": 2,"nomeCinema":"Cinema B", "login": "usuario02", "senha": "2"},
+    { "id": 3,"nomeCinema":"Cinema C", "login": "usuario03", "senha": "3"},
+    { "id": 4,"nomeCinema":"Cinema D", "login": "usuario04", "senha": "4"}
+],
+"Unidades": [
+    { "id": 1,"nomeUnidade":"Unidade A", "cnpj": "111111111", "email": "a@gmail.com","telefone":"32 3232-3232", "logradouro":"a", "numero":1, "complemento":"a","bairro":"a","cidade":"a","estado":"a","cep":"1"},
+    { "id": 2,"nomeUnidade":"Unidade B", "cnpj": "222222222", "email": "b@gmail.com","telefone":"31 3131-3131", "logradouro":"b", "numero":2, "complemento":"b","bairro":"b","cidade":"b","estado":"b","cep":"2"},
+    { "id": 3,"nomeUnidade":"Unidade C", "cnpj": "333333333", "email": "c@gmail.com","telefone":"(32) 3222-3232", "logradouro":"c", "numero":3, "complemento":"c","bairro":"c","cidade":"c","estado":"c","cep":"3"},
+    { "id": 4,"nomeUnidade":"Unidade D", "cnpj": "444444444", "email": "d@gmail.com","telefone":"(33) 3332-3232", "logradouro":"d", "numero":4, "complemento":"d","bairro":"d","cidade":"d","estado":"d","cep":"4"}
+],
+"Salas": [
+    { "id": 1,"numeroSala":"1", "capacidade": 50, "capacidadePreferencial": 10, "formatoSala":"Retangular", "numeroFileiraVertical": "10", "numeroFileiraHorizontal": "5", "idUnidade":"Unidade A"},
+    { "id": 2,"numeroSala":"2", "capacidade": 50, "capacidadePreferencial": 10, "formatoSala":"Retangular", "numeroFileiraVertical": "5", "numeroFileiraHorizontal": "10", "idUnidade":"Unidade B"},
+    { "id": 3,"numeroSala":"3", "capacidade": 100, "capacidadePreferencial": 20, "formatoSala":"Oval", "numeroFileiraVertical": "10", "numeroFileiraHorizontal": "10", "idUnidade":"Unidade A"},
+    { "id": 4,"numeroSala":"4", "capacidade": 25, "capacidadePreferencial": 5, "formatoSala":"Oval", "numeroFileiraVertical": "5", "numeroFileiraHorizontal": "5", "idUnidade":"Unidade C"}
+],
+"TiposDeAssento": [
+    { "id": 1,"nomeAssento":"Normal", "descricao": "Assento comum"},
+    { "id": 2,"nomeAssento":"Preferencial", "descricao": "Assento preferencial"},
+    { "id": 3,"nomeAssento":"Preferencial Obeso", "descricao": "Assento para obesos"},
+    { "id": 4,"nomeAssento":"Preferencial Cadeirante", "descricao": "Assento para cadeirantes"}
+],
+"Assentos": [
+    { "id": 1,"numeroAssento":"A1", "fileiraVertical": "1", "fileiraHorizontal": "1","idSala":"1", "idTipoAssento":"Normal", "idUnidade":"Unidade A"},
+    { "id": 2,"numeroAssento":"A2", "fileiraVertical": "1", "fileiraHorizontal": "2","idSala":"1", "idTipoAssento":"Normal", "idUnidade":"Unidade A"},
+    { "id": 3,"numeroAssento":"A3", "fileiraVertical": "1", "fileiraHorizontal": "3","idSala":"1", "idTipoAssento":"Normal", "idUnidade":"Unidade A"},
+    { "id": 4,"numeroAssento":"A4", "fileiraVertical": "1", "fileiraHorizontal": "4","idSala":"1", "idTipoAssento":"Normal", "idUnidade":"Unidade A"},
+    { "id": 5,"numeroAssento":"A5", "fileiraVertical": "1", "fileiraHorizontal": "5","idSala":"1", "idTipoAssento":"Normal", "idUnidade":"Unidade A"},
+    { "id": 6,"numeroAssento":"B1", "fileiraVertical": "2", "fileiraHorizontal": "1","idSala":"1", "idTipoAssento":"Preferencial", "idUnidade":"Unidade A"},
+    { "id": 7,"numeroAssento":"B2", "fileiraVertical": "2", "fileiraHorizontal": "2","idSala":"1", "idTipoAssento":"Preferencial Obeso", "idUnidade":"Unidade A"},
+    { "id": 8,"numeroAssento":"B3", "fileiraVertical": "2", "fileiraHorizontal": "3","idSala":"1", "idTipoAssento":"Preferencial Cadeirante", "idUnidade":"Unidade A"},
+    { "id": 9,"numeroAssento":"B4", "fileiraVertical": "2", "fileiraHorizontal": "4","idSala":"1", "idTipoAssento":"Normal", "idUnidade":"Unidade A"},
+    { "id": 10,"numeroAssento":"B5", "fileiraVertical": "2", "fileiraHorizontal": "5","idSala":"2", "idTipoAssento":"Normal", "idUnidade":"Unidade A"},
+    { "id": 11,"numeroAssento":"A1", "fileiraVertical": "1", "fileiraHorizontal": "3","idSala":"2", "idTipoAssento":"Normal", "idUnidade":"Unidade B"},
+    { "id": 12,"numeroAssento":"A2", "fileiraVertical": "1", "fileiraHorizontal": "4","idSala":"2", "idTipoAssento":"Normal", "idUnidade":"Unidade B"}
+]
+}
